@@ -9,3 +9,5 @@ Ko norisi, tai jog būtų kiek įmanoma atkartotas dizainas, bei pritaikytas tel
 Video galima matyti kokios yra interakcijos: https://youtu.be/41Ihc2_c9VY
 
 Jei reikės kokių nors papildomų resursų ar dizaino detalių - praneškite - pakalbėsiu su dizaineriu ir atsiųsiu ko truks!
+
+P.S. kas liečia techninius niuansus, tai turiu Nodejs serverį ant kurio ir norėčiau paleisti šį projektą. Kas būtų labai gerai, jog būtų pateikta dokumentacija, kaip paleisti šį projektą... ką reik turėti omenyje - serveris (pati mašina) visiškai tuščias.
