@@ -3,3 +3,10 @@
   justify-content: $horizontal;
   align-items: $vertical;
 }
+
+@mixin font($fweight: 400, $fsize: 13px) {
+  // font-family: sans-serif; unknown font so far
+  font-weight: $fweight;
+  font-size: $fsize;
+  color: $Dark;
+}
