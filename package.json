@@ -1,0 +1,21 @@
+{
+  "name": "omex-landing-page",
+  "version": "1.0.0",
+  "description": "...",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=8080 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/student-to-dev/Omex-landing-page.git"
+  },
+  "keywords": [],
+  "author": "Simona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/student-to-dev/Omex-landing-page/issues"
+  },
+  "homepage": "https://github.com/student-to-dev/Omex-landing-page#readme"
+}
