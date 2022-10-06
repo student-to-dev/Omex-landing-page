@@ -1,4 +1,13 @@
-@import '../base/layout.css';
+/* base */
 @import '../base/reset.css';
-@import '../base/variables.css';
-@import '../components/buttnon.css';
+@import '../base/variables.scss';
+@import '../base/utils.scss';
+
+/* layout */
+@import '../base/layout.css';
+
+/* components */
+@import '../components/button.css';
+
+/* animations */
+@import '../base/anim/keyframes.scss';

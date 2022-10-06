@@ -12,10 +12,14 @@
     "url": "git+https://github.com/student-to-dev/Omex-landing-page.git"
   },
   "keywords": [],
-  "author": "Simona",
+  "author": "Student-To-Dev Font-End Team",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/student-to-dev/Omex-landing-page/issues"
   },
-  "homepage": "https://github.com/student-to-dev/Omex-landing-page#readme"
+  "homepage": "https://github.com/student-to-dev/Omex-landing-page#readme",
+  "devDependencies": {
+    "dead-server": "^1.0.6",
+    "sass": "^1.55.0"
+  }
 }
