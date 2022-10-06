@@ -5,7 +5,7 @@
 
 # Omex-landing-page
 
-Group Landing page project\_
+Group Landing page project
 
 This project is for educational porpuses only. Pull request are must do and priority for real-life students! Thank you for cooperation(not)!
 
@@ -13,7 +13,7 @@ Site published at:
 
 ## Project features
 
-- responsive design
+- Responsive design
 - Sign up form
 - JS animations
 - CSS
