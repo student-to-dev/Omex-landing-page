@@ -1,0 +1,1 @@
+Klientas prisegė savo nuotraukas.
