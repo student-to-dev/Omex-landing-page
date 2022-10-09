@@ -2,6 +2,7 @@
 @import '../base/reset.css';
 @import '../base/variables.scss';
 @import '../base/utils.scss';
+@import '../base/base.css';
 
 /* layout */
 @import '../base/layout.css';
@@ -11,3 +12,13 @@
 
 /* animations */
 @import '../base/anim/keyframes.scss';
+
+/* Header */
+/* Hero */
+/* Companies' logos */
+/* Features */
+/* Project Discussion with John */
+/* Project from David */
+/* Testemonies */
+/* Get Started Form */
+/* Footer */
