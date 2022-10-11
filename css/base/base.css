@@ -11,13 +11,17 @@ body * {
 }
 
 body {
-    font-family: 'DM Sans', 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 :root {
---primary-color: #5454d4;
+    --primary-color: #5454d4;
     --secondary-color: #f04037;
     --yellow: #fedc5a;
+    --heading-color: #19191b;
+    --heading--text: #696871;
+    --extra-color: #413E65;
+    --getstarted-text: #FFFFFFB3;
 }
 
 .center {

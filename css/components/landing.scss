@@ -1,0 +1,61 @@
+@import '../base/variables.scss';
+@import '../base/utils.scss';
+@import '../base/anim/keyframes.css';
+
+.landing__left {
+  .landing__left_content {
+    margin-right: 60px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+
+    h1 {
+      color: $Cblack;
+      @include font(80px, 700, 1em, -2.5px);
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: $Cgray;
+      @include font(21px, 400, normal, -0.5px);
+      margin-bottom: 36px;
+    }
+
+    button {
+      color: #fff;
+      background-color: $Csecondary;
+      @include font(21px, 500, 26px, -0.5px);
+      border-radius: 5px;
+      padding: 16px 50px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      display: block;
+      color: $Cprimary;
+      @include font(16px, 500, 20px, -0.5px);
+
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.landing__right {
+  position: relative;
+
+  .landing__right_popup1 {
+    position: absolute;
+  }
+
+  .landing__right_popup2 {
+    position: absolute;
+    bottom: 145px;
+  }
+
+  .landing__right_phone {
+    height: 100%;
+    width: 100%;
+  }
+}

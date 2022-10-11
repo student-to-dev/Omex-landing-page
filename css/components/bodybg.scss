@@ -1,0 +1,16 @@
+@import '../base/variables.scss';
+
+.body__background {
+  height: 678px;
+  width: 678px;
+  background-image: url('../../CLIENT/images/Oval-492x492.png.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: -200px;
+
+  @media (min-width: $ovalChange) {
+    background-image: url('../../CLIENT/images/Oval.png.webp');
+    top: 0;
+  }
+}

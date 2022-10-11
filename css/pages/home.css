@@ -1,19 +1,19 @@
 /* base */
 @import '../base/reset.css';
-@import '../base/variables.scss';
-@import '../base/utils.scss';
 @import '../base/base.css';
 
 /* layout */
 @import '../base/layout.css';
 
 /* components */
+@import '../components/bodybg.css';
 @import '../components/button.css';
 
 /* animations */
-@import '../base/anim/keyframes.scss';
+@import '../base/anim/keyframes.css';
 
 /* Header start */
+@import '../components/landing.css';
 /* Header end */
 
 /* Hero start */

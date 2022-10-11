@@ -1,0 +1,67 @@
+@import '../base/anim/keyframes.css';
+.landing__left .landing__left_content {
+  margin-right: 60px;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+.landing__left .landing__left_content h1 {
+  color: #19191b;
+  font-family: "Roboto", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: -2.5px;
+  margin-bottom: 20px;
+}
+.landing__left .landing__left_content p {
+  color: #696871;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  margin-bottom: 36px;
+}
+.landing__left .landing__left_content button {
+  color: #fff;
+  background-color: #f04037;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  border-radius: 5px;
+  padding: 16px 50px;
+  margin-bottom: 20px;
+}
+.landing__left .landing__left_content a {
+  display: block;
+  color: #5454d4;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
+.landing__left .landing__left_content a i {
+  margin-right: 10px;
+}
+
+.landing__right {
+  position: relative;
+}
+.landing__right .landing__right_popup1 {
+  position: absolute;
+}
+.landing__right .landing__right_popup2 {
+  position: absolute;
+  bottom: 145px;
+}
+.landing__right .landing__right_phone {
+  height: 100%;
+  width: 100%;
+}
