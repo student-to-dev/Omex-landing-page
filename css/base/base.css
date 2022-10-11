@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', 'Roboto', sans-serif;
+}
+
+:root {
+--primary-color: #5454d4;
+    --secondary-color: #f04037;
+    --yellow: #fedc5a;
+}
+
+.center {
+    text-align: center;
+}
