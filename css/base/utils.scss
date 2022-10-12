@@ -1,11 +1,12 @@
-@mixin flex($horizontal: center, $vertical: center) {
+@mixin flex($horizontal: center, $vertical: center, $dir: row) {
   display: flex;
   justify-content: $horizontal;
   align-items: $vertical;
+  flex-direction: $dir;
 }
 
 @mixin font($fsize: 21px, $fweight: 400, $lineh: normal, $letters: normal) {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Circular Std', sans-serif;
   font-size: $fsize;
   font-weight: $fweight;
   line-height: $lineh;

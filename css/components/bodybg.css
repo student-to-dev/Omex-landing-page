@@ -4,12 +4,17 @@
   background-image: url("../../CLIENT/images/Oval-492x492.png.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: -5;
   position: fixed;
   top: -200px;
 }
 @media (min-width: 1025px) {
   .body__background {
     background-image: url("../../CLIENT/images/Oval.png.webp");
-    top: 0;
+    top: -80px;
   }
 }

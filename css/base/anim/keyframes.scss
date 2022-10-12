@@ -1,8 +1,4 @@
 @keyframes pop {
-  0% {
-    transform: scale(0);
-  }
-
   70% {
     transform: scale(0);
   }
@@ -13,5 +9,17 @@
 
   93% {
     transform: scale(1.2);
+  }
+}
+
+@keyframes popup-1 {
+  100% {
+    transform: translate3d(-10px, -5px, 0);
+  }
+}
+
+@keyframes popup-2 {
+  100% {
+    transform: translate3d(0, 45px, 0);
   }
 }

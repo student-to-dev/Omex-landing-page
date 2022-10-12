@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Circular Std';  /* Actual Font Of Design*/
+    src: url('../../fonts/circular-std-medium-500.ttf');
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -11,7 +16,7 @@ body * {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Circular Std', sans-serif;
 }
 
 :root {

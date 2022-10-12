@@ -7,7 +7,7 @@
 
 /* components */
 @import '../components/bodybg.css';
-@import '../components/button.css';
+@import '../components/buttons.css';
 
 /* animations */
 @import '../base/anim/keyframes.css';
