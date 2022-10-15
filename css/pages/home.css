@@ -47,8 +47,9 @@
 
 /* Get Started Form start*/
 .get-started-section {
-    background-color: #19191b;
     color: #fff;
+    overflow: hidden;
+    position: relative;
 }
 .get-started-content {
     display: flex;
@@ -62,6 +63,16 @@
     font-size: 17px;
     color: #b6b6b7;
 }
+.black-figure {
+    background-color: #19191b;
+    width:300%;
+    height: 300%;
+    border-radius:30%;
+    border: none;
+    position: absolute;
+    z-index: -1;
+    transform: translate(-50%, -3%);
+}
 /* Get Started Form end*/
 
 /* Footer start */
@@ -69,4 +80,7 @@
 
 @media (max-width: 768px){
     .title {font-size: 40px;}
+ }
+@media (max-width: 576px){
+    .title {font-size: 30px;}
  }
