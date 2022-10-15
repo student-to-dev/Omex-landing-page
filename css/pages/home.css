@@ -8,12 +8,16 @@
 /* components */
 @import '../components/bodybg.css';
 @import '../components/buttons.css';
+/* <<<<<<< HEAD */
+/* ======= */
+@import '../components/form.css';
+@import '../components/landing.css';
+/* >>>>>>> develop */
 
 /* animations */
 @import '../base/anim/keyframes.css';
 
 /* Header start */
-@import '../components/landing.css';
 /* Header end */
 
 /* Hero start */
