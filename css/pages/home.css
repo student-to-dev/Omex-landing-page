@@ -9,6 +9,7 @@
 @import '../components/bodybg.css';
 @import '../components/buttons.css';
 @import '../components/form.css';
+@import '../components/landing.css';
 
 /* animations */
 @import '../base/anim/keyframes.css';
@@ -19,7 +20,6 @@
 }
 
 /* Header start */
-@import '../components/landing.css';
 /* Header end */
 
 /* Hero start */
