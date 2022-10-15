@@ -19,9 +19,7 @@
   },
   "homepage": "https://github.com/student-to-dev/Omex-landing-page#readme",
   "devDependencies": {
-    "dead": "^0.0.2",
     "dead-server": "^1.0.6",
-    "sass": "^1.55.0",
-    "server": "^1.0.37"
+    "sass": "^1.55.0"
   }
 }
