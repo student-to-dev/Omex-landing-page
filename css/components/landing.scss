@@ -8,17 +8,19 @@
 
     @media (max-width: $mediumPlus) {
       display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(2, 1fr);
-      align-items: center;
 
-      .landing__left_content {
-        margin: auto;
+      .landing__left {
+        order: 2;
       }
 
-      .landing__right_popup.popup-1 {
-        left: 0;
+      .landing__right {
+        order: 1;
+
+        .landing__right_popup.popup-1 {
+          left: 0;
+        }
       }
+
     }
   }
 }
@@ -26,13 +28,9 @@
 .landing__left {
   order: 1;
 
-  @media (max-width: $mediumPlus) {
-    order: 2;
-  }
-
   .landing__left_content {
     margin-top: 64px;
-    // margin-right: 60px;
+    margin-right: 10px;
     padding: 10px;
 
     h1 {
@@ -62,10 +60,6 @@
 .landing__right {
   position: relative;
   order: 2;
-
-  @media (max-width: $mediumPlus) {
-    order: 1;
-  }
 
   .landing__right_popup {
     @include flex();
