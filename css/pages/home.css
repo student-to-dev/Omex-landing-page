@@ -106,6 +106,10 @@ footer > .container > .row { /* First row */
     padding-bottom: 25px;
     font-size: 14px;
 }
+.footer-block li:hover {
+    color: #5454d4;
+    transition-duration: 0.7s;
+}
 .footer-block:nth-child(1) {
     color: #ffffff;
     font-size: 20px;
@@ -132,6 +136,10 @@ footer > .container .row:nth-of-type(2) {
 .footer-social img {
     height: 15px;
     padding: 0 5px;
+}
+.footer-social img:hover {
+    background-color: #5454d4;
+    transition-duration: 0.7s;
 }
 
 @media (max-width: 800px) {
