@@ -2,16 +2,42 @@
 @import '../base/utils.scss';
 @import '../base/anim/keyframes.css';
 
+.container {
+  .landing {
+    display: inline-block;
+
+    @media (max-width: $mediumPlus) {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      align-items: center;
+
+      .landing__left_content {
+        margin: auto;
+      }
+
+      .landing__right_popup.popup-1 {
+        left: 0;
+      }
+    }
+  }
+}
 
 .landing__left {
+  order: 1;
+
+  @media (max-width: $mediumPlus) {
+    order: 2;
+  }
+
   .landing__left_content {
     margin-top: 64px;
-    margin-right: 60px;
+    // margin-right: 60px;
     padding: 10px;
 
     h1 {
       color: $Cblack;
-      @include font(80px, 600, 1.05em);
+      @include font(clamp(38px, 6vw, 80px), 600, 1.05em);
       margin-bottom: 20px;
     }
 
@@ -35,6 +61,11 @@
 
 .landing__right {
   position: relative;
+  order: 2;
+
+  @media (max-width: $mediumPlus) {
+    order: 1;
+  }
 
   .landing__right_popup {
     @include flex();
