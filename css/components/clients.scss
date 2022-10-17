@@ -1,0 +1,60 @@
+@import '../base/variables.scss';
+@import '../base/utils.scss';
+@import '../base/anim/keyframes.css';
+
+
+.clients__title {
+  color: $Cgray;
+  @include flex();
+  gap: 5em;
+  margin-bottom: 40px;
+
+  h5 {
+    text-align: center;
+    @include font(21px, 400, 32px, -0.5px);
+    white-space: nowrap;
+
+    @media (max-width: $small) {
+      white-space: normal;
+    }
+  }
+
+  hr {
+    background-color: $Chr;
+    height: 1px;
+    border: none;
+    width: 50%;
+
+    @media (max-width: $medium) {
+      display: none;
+    }
+  }
+}
+
+.clients__teams {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+
+  a:hover {
+    box-shadow: 0px 0px 38px 32px #0000000c inset;
+  }
+
+  img {
+    width: 180px;
+  }
+
+  @media (max-width: $bigPlus) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: $medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: $small) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
