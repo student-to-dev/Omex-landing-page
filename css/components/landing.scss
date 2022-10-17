@@ -45,10 +45,11 @@
       margin-bottom: 36px;
     }
 
-    a {
+    .landing__left-intro {
       display: block;
       color: $Cprimary;
       @include font(16px, 500, 20px, -0.5px);
+      cursor: pointer;
 
       i {
         margin-right: 10px;

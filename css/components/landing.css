@@ -49,7 +49,7 @@
   letter-spacing: -0.5px;
   margin-bottom: 36px;
 }
-.landing__left .landing__left_content a {
+.landing__left .landing__left_content .landing__left-intro {
   display: block;
   color: #5454d4;
   font-family: "Circular Std", sans-serif;
@@ -57,8 +57,9 @@
   font-weight: 500;
   line-height: 20px;
   letter-spacing: -0.5px;
+  cursor: pointer;
 }
-.landing__left .landing__left_content a i {
+.landing__left .landing__left_content .landing__left-intro i {
   margin-right: 10px;
 }
 
