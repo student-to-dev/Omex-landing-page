@@ -32,7 +32,7 @@
   }
 }
 .clients__title hr {
-  background-color: #eae9f2;
+  background-color: #EAE9F2;
   height: 1px;
   border: none;
   width: 50%;
@@ -58,6 +58,8 @@
 }
 .clients__teams img {
   width: 180px;
+  -webkit-filter: invert(50%);
+          filter: invert(50%);
 }
 @media (max-width: 1400px) {
   .clients__teams {
