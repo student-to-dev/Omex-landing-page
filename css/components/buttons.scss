@@ -19,6 +19,7 @@
     position: absolute;
     top: 50%;
     right: -16px;
+    opacity: 0;
     transition: transform .1s linear;
   }
 
@@ -29,6 +30,7 @@
 
     .fa-arrow-right {
       transform: translateX(-34px);
+      opacity: 1;
     }
   }
 }
