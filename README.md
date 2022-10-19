@@ -27,3 +27,5 @@ Site published at:
 - [Rimantas](https://github.com/belauzas) \*le Master,
 - [Saulius](https://github.com/sauliusss),
 - [Simona](https://github.com/simonasablinaite)
+
+![Desktop Design Preview](CLIENT/desktop.png?raw=true "Desktop Design Preview")
