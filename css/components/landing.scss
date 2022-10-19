@@ -66,7 +66,7 @@
     @include flex();
     gap: 15px;
     position: absolute;
-    padding: 18px;
+    padding: 1em;
     border-radius: 8px;
     box-shadow: 0px 32px 34px 0px #1c1b2033;
 
@@ -74,8 +74,7 @@
       @include flex();
       background-color: $Cyellow;
       border-radius: 50px;
-      width: 31px;
-      height: 31px;
+      padding: 7px;
     }
 
     h4 {
@@ -96,6 +95,10 @@
       background-color: $Cyellow;
       animation: popup-2 2s ease-in-out infinite alternate both;
 
+      @media (max-width: $small) {
+        bottom: 10px;
+      }
+
       .checkMark {
         background-color: $Cprimary;
         color: #fff;
@@ -109,12 +112,15 @@
   }
 
   .landing__right_phone {
-    height: 100%;
-    width: 100%;
     text-align: center;
+
 
     img {
       padding: 10px;
+      width: clamp(200px, 30vw, 330px);
+      height: auto;
+
+      @media (max-width: $small) {}
     }
   }
 }

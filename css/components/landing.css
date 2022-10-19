@@ -85,7 +85,7 @@
           flex-direction: row;
   gap: 15px;
   position: absolute;
-  padding: 18px;
+  padding: 1em;
   border-radius: 8px;
   -webkit-box-shadow: 0px 32px 34px 0px rgba(28, 27, 32, 0.2);
           box-shadow: 0px 32px 34px 0px rgba(28, 27, 32, 0.2);
@@ -106,8 +106,7 @@
           flex-direction: row;
   background-color: #fedc5a;
   border-radius: 50px;
-  width: 31px;
-  height: 31px;
+  padding: 7px;
 }
 .landing__right .landing__right_popup h4 {
   font-family: "Circular Std", sans-serif;
@@ -130,6 +129,11 @@
   -webkit-animation: popup-2 2s ease-in-out infinite alternate both;
           animation: popup-2 2s ease-in-out infinite alternate both;
 }
+@media (max-width: 576px) {
+  .landing__right .landing__right_popup.popup-2 {
+    bottom: 10px;
+  }
+}
 .landing__right .landing__right_popup.popup-2 .checkMark {
   background-color: #5454d4;
   color: #fff;
@@ -139,10 +143,10 @@
   max-width: 218px;
 }
 .landing__right .landing__right_phone {
-  height: 100%;
-  width: 100%;
   text-align: center;
 }
 .landing__right .landing__right_phone img {
   padding: 10px;
+  width: clamp(200px, 30vw, 330px);
+  height: auto;
 }
