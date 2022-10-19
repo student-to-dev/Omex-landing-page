@@ -1,0 +1,78 @@
+@import '../base/anim/keyframes.css';
+.clients__title {
+  color: #696871;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5em;
+  margin-bottom: 40px;
+}
+.clients__title h5 {
+  text-align: center;
+  font-family: "Circular Std", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  white-space: nowrap;
+}
+@media (max-width: 576px) {
+  .clients__title h5 {
+    white-space: normal;
+  }
+}
+.clients__title hr {
+  background-color: #EAE9F2;
+  height: 1px;
+  border: none;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .clients__title hr {
+    display: none;
+  }
+}
+
+.clients__teams {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+.clients__teams a:hover {
+  -webkit-box-shadow: 0px 0px 38px 32px rgba(0, 0, 0, 0.0470588235) inset;
+          box-shadow: 0px 0px 38px 32px rgba(0, 0, 0, 0.0470588235) inset;
+}
+.clients__teams img {
+  width: 180px;
+  -webkit-filter: invert(50%);
+          filter: invert(50%);
+}
+@media (max-width: 1400px) {
+  .clients__teams {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .clients__teams {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .clients__teams {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

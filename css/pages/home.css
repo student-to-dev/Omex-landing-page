@@ -10,6 +10,7 @@
 @import '../components/buttons.css';
 @import '../components/form.css';
 @import '../components/landing.css';
+@import '../components/clients.css';
 
 /* animations */
 @import '../base/anim/keyframes.css';
