@@ -1,22 +1,22 @@
 @import '../base/anim/keyframes.css';
-.container .landing {
+.container > .landing {
   display: inline-block;
 }
 @media (max-width: 992px) {
-  .container .landing {
+  .container > .landing {
     display: grid;
   }
-  .container .landing .landing__left {
+  .container > .landing .landing__left {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
   }
-  .container .landing .landing__right {
+  .container > .landing .landing__right {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
   }
-  .container .landing .landing__right .landing__right_popup.popup-1 {
+  .container > .landing .landing__right .landing__right_popup.popup-1 {
     left: 0;
   }
 }
@@ -85,10 +85,15 @@
           flex-direction: row;
   gap: 15px;
   position: absolute;
-  padding: 1em;
+  padding: 1rem;
   border-radius: 8px;
   -webkit-box-shadow: 0px 32px 34px 0px rgba(28, 27, 32, 0.2);
           box-shadow: 0px 32px 34px 0px rgba(28, 27, 32, 0.2);
+}
+@media (max-width: 576px) {
+  .landing__right .landing__right_popup {
+    padding: 0.5rem;
+  }
 }
 .landing__right .landing__right_popup .checkMark {
   display: -webkit-box;
@@ -147,6 +152,6 @@
 }
 .landing__right .landing__right_phone img {
   padding: 10px;
-  width: clamp(200px, 30vw, 330px);
+  width: clamp(200px, 40vw, 330px);
   height: auto;
 }

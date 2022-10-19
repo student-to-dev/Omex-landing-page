@@ -2,26 +2,24 @@
 @import '../base/utils.scss';
 @import '../base/anim/keyframes.css';
 
-.container {
-  .landing {
-    display: inline-block;
+.container>.landing {
+  display: inline-block;
 
-    @media (max-width: $mediumPlus) {
-      display: grid;
+  @media (max-width: $mediumPlus) {
+    display: grid;
 
-      .landing__left {
-        order: 2;
-      }
-
-      .landing__right {
-        order: 1;
-
-        .landing__right_popup.popup-1 {
-          left: 0;
-        }
-      }
-
+    .landing__left {
+      order: 2;
     }
+
+    .landing__right {
+      order: 1;
+
+      .landing__right_popup.popup-1 {
+        left: 0;
+      }
+    }
+
   }
 }
 
@@ -66,9 +64,13 @@
     @include flex();
     gap: 15px;
     position: absolute;
-    padding: 1em;
+    padding: 1rem;
     border-radius: 8px;
     box-shadow: 0px 32px 34px 0px #1c1b2033;
+
+    @media(max-width: $small) {
+      padding: 0.5rem;
+    }
 
     .checkMark {
       @include flex();
@@ -114,13 +116,10 @@
   .landing__right_phone {
     text-align: center;
 
-
     img {
       padding: 10px;
-      width: clamp(200px, 30vw, 330px);
+      width: clamp(200px, 40vw, 330px);
       height: auto;
-
-      @media (max-width: $small) {}
     }
   }
 }
