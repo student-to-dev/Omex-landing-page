@@ -127,6 +127,11 @@
   color: #fff;
   animation: popup-1 2s ease-in-out infinite alternate-reverse both;
 }
+@media (max-width: 1400px) {
+  .landing__right .landing__right_popup.popup-1 {
+    left: 0;
+  }
+}
 .landing__right .landing__right_popup.popup-2 {
   bottom: 130px;
   right: -12px;
@@ -137,6 +142,11 @@
 @media (max-width: 576px) {
   .landing__right .landing__right_popup.popup-2 {
     bottom: 10px;
+  }
+}
+@media (max-width: 1400px) {
+  .landing__right .landing__right_popup.popup-2 {
+    right: -50px;
   }
 }
 .landing__right .landing__right_popup.popup-2 .checkMark {

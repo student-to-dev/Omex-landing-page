@@ -89,6 +89,10 @@
       background-color: $Cprimary;
       color: #fff;
       animation: popup-1 2s ease-in-out infinite alternate-reverse both;
+
+      @media (max-width: $bigPlus) {
+        left: 0;
+      }
     }
 
     &.popup-2 {
@@ -99,6 +103,10 @@
 
       @media (max-width: $small) {
         bottom: 10px;
+      }
+
+      @media (max-width: $bigPlus) {
+        right: -50px;
       }
 
       .checkMark {
