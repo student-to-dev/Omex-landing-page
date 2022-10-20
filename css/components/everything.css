@@ -1,4 +1,4 @@
-.everything {
+.everything>.container>.row {
    display: contents;
 }
 
