@@ -110,12 +110,12 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: normal;
+  position: relative;
   color: #5454d4;
   background: none;
   border: none;
   cursor: pointer;
   padding: 1.5em;
-  position: relative;
 }
 .reviews .reviews__seeall button span {
   margin-left: 15px;
@@ -129,6 +129,10 @@
   position: absolute;
   width: 0;
   height: 0;
+  -webkit-transition: border-color 0s, width 0.5s, height 0.5s;
+  transition: border-color 0s, width 0.5s, height 0.5s;
+  -webkit-transition-delay: 0.8s, 0.4s, 0s;
+          transition-delay: 0.8s, 0.4s, 0s;
 }
 .reviews .reviews__seeall button::before {
   top: 0;
