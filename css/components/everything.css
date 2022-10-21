@@ -52,5 +52,79 @@
 .everything_popup p {
    font-size: 12px;
    color: #f79b97;
+}
 
+.text-elements-group {
+   display: contents;
+}
+
+.text-elements-group h2 {
+   width: 70%;
+   color: #19191b;
+   font-family: "Circular Std", sans-serif;
+   font-size: 40px;
+   font-weight: 600;
+   letter-spacing: normal;
+   margin-bottom: 20px;
+}
+
+.text-elements-group p {
+   width: 70%;
+   color: #696871;
+   font-family: "Circular Std", sans-serif;
+   font-size: 21px;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: -0.5px;
+   margin-bottom: 36px;
+}
+
+.text-elements-group span {
+   width: 60%;
+   display: flex;
+   background-color: #fff;
+   border: 1px solid #f0f0f6;
+   border-radius: 10px;
+   padding: 10px;
+   flex-direction: column;
+   align-content: flex-start;
+}
+
+.text-elements-group .second {
+   width: 45%;
+}
+
+span>.cards {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   background-color: #feeceb;
+   color: #f04037;
+   border-radius: 50px;
+   width: 40px;
+   height: 40px;
+}
+
+span>.mobile {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   background-color: #eeeefb;
+   color: #5454d4;
+   border-radius: 50px;
+   width: 40px;
+   height: 40px;
+}
+
+.text-elements-group>span>h4 {
+   margin: -30px 0 0 50px;
+   font-size: 18px;
+   text-transform: capitalize;
+}
+
+.text-elements-group>span>p {
+   font-size: 18px;
+   margin: 10PX 0 0 50px;
 }
