@@ -1,16 +1,20 @@
-.everything>.container>.row {
-   display: contents;
-}
+@import url(../../css/base/layout.css);
 
 .BG-img {
-   display: contents;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
    background-image: url(../../CLIENT/images/Group-3.webp);
    background-repeat: no-repeat;
+   background-size: 100% 100%;
+   padding: 30px;
 }
 
 .personal {
    width: 300px;
    height: 450px;
+   margin-top: 90px;
    box-shadow: 10px 8px 59px -5px rgba(0, 0, 0, 0.75);
    -webkit-box-shadow: 10px 8px 59px -5px rgba(0, 0, 0, 0.75);
    -moz-box-shadow: 10px 8px 59px -5px rgba(0, 0, 0, 0.75);
@@ -18,7 +22,7 @@
 
 .rectangle {
    width: 280px;
-   margin: -410px 0 0 -80px;
+   margin: -400px 0 30px -80px;
 }
 
 .everything_popup {
@@ -28,7 +32,7 @@
    flex-direction: row;
    gap: 15px;
    position: absolute;
-   margin-top: 130px;
+   margin-top: 200px;
    padding: 18px;
    border-radius: 8px;
    width: 50%;
@@ -92,6 +96,7 @@
 
 .text-elements-group .second {
    width: 45%;
+   margin-top: 10px;
 }
 
 span>.cards {
@@ -127,4 +132,11 @@ span>.mobile {
 .text-elements-group>span>p {
    font-size: 18px;
    margin: 10PX 0 0 50px;
+}
+
+@media (min-width: 768px) {
+   .container>.row {
+      width: 720px;
+      display: flex;
+   }
 }
