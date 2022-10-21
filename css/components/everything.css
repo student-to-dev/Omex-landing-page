@@ -1,0 +1,56 @@
+.everything>.container>.row {
+   display: contents;
+}
+
+.BG-img {
+   display: contents;
+   background-image: url(../../CLIENT/images/Group-3.webp);
+   background-repeat: no-repeat;
+}
+
+.personal {
+   width: 300px;
+   height: 450px;
+   box-shadow: 10px 8px 59px -5px rgba(0, 0, 0, 0.75);
+   -webkit-box-shadow: 10px 8px 59px -5px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 10px 8px 59px -5px rgba(0, 0, 0, 0.75);
+}
+
+.rectangle {
+   width: 280px;
+   margin: -410px 0 0 -80px;
+}
+
+.everything_popup {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   gap: 15px;
+   position: absolute;
+   margin-top: 130px;
+   padding: 18px;
+   border-radius: 8px;
+   width: 50%;
+   background-color: #f04037;
+   color: #fff;
+   animation: popup-1 2s ease-in-out infinite alternate-reverse both;
+}
+
+.everything_popup .bell {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   background-color: #5454d4;
+   color: #fff;
+   border-radius: 50px;
+   width: 31px;
+   height: 31px;
+}
+
+.everything_popup p {
+   font-size: 12px;
+   color: #f79b97;
+
+}
