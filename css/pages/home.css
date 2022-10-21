@@ -22,8 +22,12 @@
 
 /* Header start */
 header > .header {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    padding-top: 10px;
 }
 
 .hamburger {
@@ -33,15 +37,19 @@ header > .header {
     float: right;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .meniu > nav > .meniu-item {
-    padding: 8px 15px;
+    padding: 0px 15px;
 }
 .meniu-item > a {
     padding-right: 5px;
 }
 .meniu-item > i {
     cursor: pointer;
+}
+.meniu > .btn-small {
+    margin-top: 8px;
 }
 /* Header end */
 
@@ -171,6 +179,9 @@ footer > .container .row:nth-of-type(2) {
 @media (max-width: 768px){
     .title {font-size: 40px;}
     .blue-semi-circle{display: none;}
+    .meniu > nav {
+        display: none;
+    }
  }
 @media (max-width: 576px){
     .title {font-size: 30px;}
