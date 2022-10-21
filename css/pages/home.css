@@ -21,6 +21,28 @@
 }
 
 /* Header start */
+header > .header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hamburger {
+    font-size: 1.5em;
+}
+.meniu > nav {
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+.meniu > nav > .meniu-item {
+    padding: 8px 15px;
+}
+.meniu-item > a {
+    padding-right: 5px;
+}
+.meniu-item > i {
+    cursor: pointer;
+}
 /* Header end */
 
 /* Hero start */
@@ -72,16 +94,6 @@
     overflow: hidden;
     animation: 2s slide-up;
     margin-top: 0%;
-}
-
-@keyframes slide-up {
-    from {
-        margin-top: 100%;
-    }
-
-    to {
-        margin-top: 0%;
-    }
 }
 /* Get Started Form end*/
 
@@ -163,3 +175,8 @@ footer > .container .row:nth-of-type(2) {
 @media (max-width: 576px){
     .title {font-size: 30px;}
  }
+@media (min-width: 768px) {
+    .fa.hamburger {
+        display: none;
+    }
+}

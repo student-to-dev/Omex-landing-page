@@ -50,3 +50,12 @@
             transform: translate3d(0, 45px, 0);
   }
 }
+@keyframes slide-up {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
