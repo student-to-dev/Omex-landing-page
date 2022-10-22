@@ -90,8 +90,8 @@ header > .header {
 }
 .drop-down-menu-item:hover {
     color: var(--primary-color);
-    padding-left: 5px;
-    transition: 0.5s;
+    padding-left: 8px;
+    transition: 0.3s;
 }
 .drop-down-menu-item:hover a {
     border-bottom: 3px solid var(--primary-color);
@@ -100,25 +100,25 @@ header > .header {
     animation-fill-mode: forwards;
 }
 .contacts-menu {
-    transform: translate(89%, 10%);
+    transform: translate(93%, 10%);
 }
 .case-menu {
-    transform: translate(89%, 49%);
+    transform: translate(93%, 49%);
 }
 .career-menu {
-    transform: translate(89%, 83%);
+    transform: translate(93%, 83%);
 }
 .pricing-menu {
-    transform: translate(89%, 178%);
+    transform: translate(93%, 178%);
 }
 .e-commerce-menu {
-    transform: translate(89%, 75%);
+    transform: translate(93%, 75%);
 }
 .account-menu {
-    transform: translate(89%, 78%);
+    transform: translate(93%, 78%);
 }
 .utility-menu {
-    transform: translate(89%, 93%);
+    transform: translate(93%, 93%);
 }
 .hide {
     display: none;
