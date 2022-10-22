@@ -144,11 +144,6 @@
     bottom: 10px;
   }
 }
-@media (max-width: 1400px) {
-  .landing__right .landing__right_popup.popup-2 {
-    right: -50px;
-  }
-}
 .landing__right .landing__right_popup.popup-2 .checkMark {
   background-color: #5454d4;
   color: #fff;
