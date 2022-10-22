@@ -85,7 +85,7 @@ header.addEventListener("mouseover", (e) => {
     }
 });
 
-header.addEventListener("mouseleave", (e) => {
+header.addEventListener("mouseleave", () => {
     changeToHide(landings);
     changeToHide(pages);
     changeToHide(blog);
@@ -99,5 +99,11 @@ header.addEventListener("mouseleave", (e) => {
         changeToHide(item);
     });
 });
+
+// document.querySelector(".hamburger").addEventListener("click", () => {
+//     document.querySelector("nav").classList.contains("desktop-nav") ? document.querySelector("nav").classList.replace("desktop-nav", "mobile-nav") : null;
+//     document.querySelector(".hamburger").innerHTML = "X";
+//     document.querySelector(".hamburger").style.color = "#ffffff";
+// });
 
 
