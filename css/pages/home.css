@@ -24,6 +24,7 @@
 header > .header {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: #ffffffa6;
 }
 
 .logo {
@@ -33,23 +34,94 @@ header > .header {
 .hamburger {
     font-size: 1.5em;
 }
-.meniu > nav {
+.menu > nav {
     float: right;
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: relative;
 }
-.meniu > nav > .meniu-item {
+.menu > nav > .menu-item {
     padding: 0px 15px;
 }
-.meniu-item > a {
+.menu-item > a {
     padding-right: 5px;
 }
-.meniu-item > i {
+.menu-item > i {
     cursor: pointer;
 }
-.meniu > .btn-small {
+.menu > .btn-small {
     margin-top: 8px;
+}
+.drop-down-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:195px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    padding: 30px 15px 20px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 8px 1px 5px #f6f6f6 ;
+}
+.down-from-landings{
+    transform: translateY(64%);
+}
+.down-from-pages {
+    transform: translate(58%, 62.5%);
+}
+.down-from-blog {
+    transform: translate(105%, 71.5%);
+}
+.drop-down-menu-item {
+    display: inline-block;
+    width: 100%;
+}
+.drop-down-menu-item > a {
+    float: left;
+    max-width: max-content;
+    border-bottom: 3px solid transparent;
+    white-space: nowrap;
+}
+.drop-down-menu-item > i {
+    float: right;
+}
+.drop-down-menu-item:hover {
+    color: var(--primary-color);
+    padding-left: 5px;
+    transition: 0.5s;
+}
+.drop-down-menu-item:hover a {
+    border-bottom: 3px solid var(--primary-color);
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.contacts-menu {
+    transform: translate(89%, 10%);
+}
+.case-menu {
+    transform: translate(89%, 49%);
+}
+.career-menu {
+    transform: translate(89%, 83%);
+}
+.pricing-menu {
+    transform: translate(89%, 178%);
+}
+.e-commerce-menu {
+    transform: translate(89%, 75%);
+}
+.account-menu {
+    transform: translate(89%, 78%);
+}
+.utility-menu {
+    transform: translate(89%, 93%);
+}
+.show {
+    display: none;
 }
 /* Header end */
 
