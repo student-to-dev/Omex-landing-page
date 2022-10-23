@@ -26,6 +26,7 @@ header > .header {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #ffffffa6;
+    position: relative;
 }
 
 .logo {
@@ -130,15 +131,66 @@ li {
 .show {
     display: flex;
 }
-/* .mobile-nav {
+.fa-xmark {
+    display: none;
+    color: #ffffff;
+    font-size: 1.5em;
+    z-index: 2;
+    position: absolute;
+    top:20px;
+    right:20px;
+}
+.mobile-nav {
     width: 300px;
+    height: 100vh;
     background-color: #19191b;
-    height: 100%;
-    display: flex;
-    top:0px;
-    right:0px;
     z-index: 1;
-} */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    color: #fff;
+    padding: 80px 10px 0px 10px;
+    gap: 30px;
+    font-size: 15px;
+}
+.mobile-nav > button {
+    display: none;
+}
+.mobile-nav>.menu-item:hover {
+    color: var(--secondary-color);
+}
+.mobile-nav > .menu-item > a {
+    float: left;
+}
+.mobile-nav > .menu-item > i {
+    float: right;
+}
+.mobile-nav > .drop-down-menu {
+    position: relative;
+    transform: translate(0);
+    background-color: #19191b;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    width: 100%;
+    padding-left: 30px;
+}
+.mobile-nav > .drop-down-menu > .drop-down-menu-item:hover a {
+    border-bottom: 3px solid var(--secondary-color);
+}
+.mobile-nav > .drop-down-menu > .submenu {
+    position: relative;
+    transform: translate(0);
+    background-color: #19191b;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+}
+.mobile-nav > .drop-down-menu > .submenu:hover a {
+    border-bottom: 3px solid var(--secondary-color);
+}
 /* Header end */
 
 /* Hero start */
@@ -277,11 +329,5 @@ footer > .container .row:nth-of-type(2) {
 @media (min-width: 768px) {
     .fa.hamburger {
         display: none;
-    }
-    .mobile-nav {
-        display: none;
-    }
-    .menu > .desktop-nav {
-        display: flex;
     }
 }
