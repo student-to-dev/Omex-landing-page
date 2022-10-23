@@ -45,6 +45,9 @@ header > .header {
 .menu > nav > .menu-item {
     padding: 0px 15px;
 }
+li {
+    list-style: none;
+}
 .menu-item > a {
     padding-right: 5px;
 }
