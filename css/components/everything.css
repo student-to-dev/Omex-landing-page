@@ -1,7 +1,6 @@
-@import url(../../css/base/layout.css);
-
 .BG-img {
    display: flex;
+   width: 100%;
    flex-direction: column;
    flex-wrap: wrap;
    align-items: center;
@@ -11,6 +10,13 @@
    padding: 30px;
 }
 
+.left-side {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+}
+
 .personal {
    width: 300px;
    height: 450px;
@@ -18,11 +24,12 @@
    box-shadow: 10px 8px 59px -5px rgba(0, 0, 0, 0.75);
    -webkit-box-shadow: 10px 8px 59px -5px rgba(0, 0, 0, 0.75);
    -moz-box-shadow: 10px 8px 59px -5px rgba(0, 0, 0, 0.75);
+
 }
 
 .rectangle {
    width: 280px;
-   margin: -400px 0 30px -80px;
+   margin: -400px 0 0 -60px;
 }
 
 .everything_popup {
@@ -32,13 +39,14 @@
    flex-direction: row;
    gap: 15px;
    position: absolute;
-   margin-top: 200px;
+   margin-top: 220px;
    padding: 18px;
+   width: 250px;
    border-radius: 8px;
-   width: 50%;
    background-color: #f04037;
    color: #fff;
    animation: popup-1 2s ease-in-out infinite alternate-reverse both;
+   z-index: 1;
 }
 
 .everything_popup .bell {
@@ -49,17 +57,21 @@
    background-color: #5454d4;
    color: #fff;
    border-radius: 50px;
-   width: 31px;
+   width: 50px;
    height: 31px;
 }
 
 .everything_popup p {
    font-size: 12px;
    color: #f79b97;
+   margin-bottom: 15px;
 }
 
 .text-elements-group {
-   display: contents;
+   display: flex;
+   flex-direction: column;
+   margin-top: 80px;
+   align-items: center;
 }
 
 .text-elements-group h2 {
@@ -69,7 +81,6 @@
    font-size: 40px;
    font-weight: 600;
    letter-spacing: normal;
-   margin-bottom: 20px;
 }
 
 .text-elements-group p {
@@ -84,7 +95,6 @@
 }
 
 .text-elements-group span {
-   width: 60%;
    display: flex;
    background-color: #fff;
    border: 1px solid #f0f0f6;
@@ -92,10 +102,10 @@
    padding: 10px;
    flex-direction: column;
    align-content: flex-start;
+   width: 300px;
 }
 
 .text-elements-group .second {
-   width: 45%;
    margin-top: 10px;
 }
 
@@ -132,11 +142,4 @@ span>.mobile {
 .text-elements-group>span>p {
    font-size: 18px;
    margin: 10PX 0 0 50px;
-}
-
-@media (min-width: 768px) {
-   .container>.row {
-      width: 720px;
-      display: flex;
-   }
 }
