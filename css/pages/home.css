@@ -154,6 +154,8 @@ li {
     padding: 80px 10px 0px 10px;
     gap: 30px;
     font-size: 15px;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
 }
 .mobile-nav > button {
     display: none;
@@ -190,6 +192,16 @@ li {
 }
 .mobile-nav > .drop-down-menu > .submenu:hover a {
     border-bottom: 3px solid var(--secondary-color);
+}
+.slide-in {
+    overflow: hidden;
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+}
+.slide-out {
+    overflow: hidden;
+    animation: slide-out 0.5s forwards;
+        -webkit-animation: slide-out 0.5s forwards;
 }
 /* Header end */
 

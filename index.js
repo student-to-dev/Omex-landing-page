@@ -112,6 +112,7 @@ document.querySelectorAll(".pages-menu").forEach(item => {
 
 document.querySelector(".hamburger").addEventListener("click", () => {
     document.querySelector("nav").classList.contains("desktop-nav") ? document.querySelector("nav").classList.replace("desktop-nav", "mobile-nav") : null;
+    document.querySelector("nav").classList.add("slide-in");
     document.querySelector(".fa-xmark").style.display = "block";
     document.querySelector(".hamburger").style.display = "none";
     lowerMenuIdArray.forEach(item => {
@@ -151,6 +152,7 @@ document.querySelector(".hamburger").addEventListener("click", () => {
 });
 
 document.querySelector(".fa-xmark").addEventListener("click", () => {
+    document.querySelector("nav").classList.remove("slide-in");
     document.querySelector("nav").classList.contains("mobile-nav") ? document.querySelector("nav").classList.replace("mobile-nav", "desktop-nav") : null;
     document.querySelector(".fa-xmark").style.display = "none";
     document.querySelector(".hamburger").style.display = "block";
@@ -166,6 +168,7 @@ document.querySelector(".fa-xmark").addEventListener("click", () => {
 });
 
 window.addEventListener('resize', function () {
+    document.querySelector("nav").classList.remove("slide-in");
     document.querySelector("nav").classList.contains("mobile-nav") ? document.querySelector("nav").classList.replace("mobile-nav", "desktop-nav") : null;
     document.querySelector(".fa-xmark").style.display = "none";
     const mediaQuery = window.matchMedia('(min-width: 768px)')
