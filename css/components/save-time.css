@@ -12,12 +12,11 @@
    box-shadow: 10px 8px 59px -5px rgba(0, 0, 0, 0.75);
    -webkit-box-shadow: 10px 8px 59px -5px rgba(0, 0, 0, 0.75);
    -moz-box-shadow: 10px 8px 59px -5px rgba(0, 0, 0, 0.75);
-
 }
 
-.rectangle {
+.frame {
    width: 280px;
-   margin: -400px 0 0 -60px;
+   margin: -360px 0 0 130px;
 }
 
 .save-time_popup {
@@ -58,7 +57,7 @@
 .text-elements-group {
    display: flex;
    flex-direction: column;
-   margin-top: 80px;
+   margin-top: 50px;
    align-items: center;
 }
 
@@ -80,8 +79,4 @@
    line-height: 32px;
    letter-spacing: -0.5px;
    margin: 35px 0;
-}
-
-.text-elements-group button {
-   align-items: flex-start;
 }
