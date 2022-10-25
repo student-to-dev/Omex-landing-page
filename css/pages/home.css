@@ -1,13 +1,14 @@
 /* base */
-@import '../base/reset.css';
-@import '../base/variables.scss';
-@import '../base/utils.scss';
+@import "../base/reset.css";
+@import "../base/variables.scss";
+@import "../base/utils.scss";
 
 /* layout */
-@import '../base/layout.css';
+@import "../base/layout.css";
 
 /* components */
-@import '../components/button.css';
+@import "../components/button.css";
+@import "../components/features.css";
 
 /* animations */
-@import '../base/anim/keyframes.scss';
+@import "../base/anim/keyframes.scss";
