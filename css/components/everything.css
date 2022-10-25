@@ -75,16 +75,17 @@
 }
 
 .text-elements-group h2 {
-   width: 70%;
+   width: 80%;
    color: #19191b;
    font-family: "Circular Std", sans-serif;
    font-size: 40px;
    font-weight: 600;
    letter-spacing: normal;
+   margin-bottom: 30px;
 }
 
 .text-elements-group p {
-   width: 70%;
+   width: 80%;
    color: #696871;
    font-family: "Circular Std", sans-serif;
    font-size: 21px;
@@ -142,4 +143,22 @@ span>.mobile {
 .text-elements-group>span>p {
    font-size: 18px;
    margin: 10PX 0 0 50px;
+}
+
+@media (min-width: 768px) {
+   .container>.row {
+      width: 720px;
+   }
+
+   .everything_popup {
+      margin: 220px 150px 0 0;
+   }
+
+   .text-elements-group h2 {
+      width: 100%;
+   }
+
+   .text-elements-group p {
+      width: 100%;
+   }
 }
