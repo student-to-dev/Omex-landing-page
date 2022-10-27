@@ -1,3 +1,7 @@
+.container>.row>.floating {
+   float: right;
+}
+
 .left-side {
    display: flex;
    flex-direction: column;
