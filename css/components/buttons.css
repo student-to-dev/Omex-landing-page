@@ -30,11 +30,11 @@
 }
 .btn:hover span {
   -webkit-transform: translateX(-10px);
-          transform: translateX(-10px);
+  transform: translateX(-10px);
 }
 .btn:hover .fa-arrow-right {
   -webkit-transform: translateX(-34px);
-          transform: translateX(-34px);
+  transform: translateX(-34px);
   opacity: 1;
 }
 
@@ -56,4 +56,20 @@
 .btn.redBtn {
   color: #fff;
   background-color: #f04037;
+}
+
+.features_btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 250px;
+  padding: 20px 40px;
+  margin-top: 50px;
+  font-family: "Circular Std", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  border: 2px solid #fff;
+  border-color: #fff;
+  border-radius: 5px;
 }
