@@ -39,7 +39,7 @@
    flex-direction: row;
    gap: 15px;
    position: absolute;
-   margin-top: 220px;
+   margin: 220px 150px 0 0;
    padding: 18px;
    width: 250px;
    border-radius: 8px;
@@ -145,20 +145,27 @@ span>.mobile {
    margin: 10PX 0 0 50px;
 }
 
-@media (min-width: 768px) {
-   .container>.row {
-      width: 720px;
-   }
-
+@media (max-width: 768px) {
    .everything_popup {
-      margin: 220px 150px 0 0;
+      margin: 220px 115px 0 0;
    }
-
-   .text-elements-group h2 {
-      width: 100%;
+}
+@media (max-width: 410px) {
+   .everything_popup {
+      margin: 220px 100px 0 0;
    }
-
-   .text-elements-group p {
-      width: 100%;
+}
+@media (max-width: 385px){
+   .personal {
+      width: 250px;
+      height: 390px;
+   }
+   .rectangle {
+      width: 230px;
+      margin: -325px 0 0 -40px;
+   }
+   .everything_popup {
+      width: 230px;
+      margin: 220px 50px 0 0;
    }
 }
