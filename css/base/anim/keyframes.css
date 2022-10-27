@@ -52,14 +52,12 @@
 }
 @keyframes slide-up {
   from {
-    margin-top: 100%;
+    margin-top: 50%;
   }
 
   to {
     margin-top: 0%;
   }
-}
-
 @keyframes loading {
   0% {
     width: 0;
@@ -69,7 +67,6 @@
     width: 100%;
   }
 }
-
 @keyframes slide-in {
   100% {
     transform: translateX(0%);
