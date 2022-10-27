@@ -1,5 +1,6 @@
 .container>.row>.floating {
    float: right;
+   display: flex;
 }
 
 .left-side {
@@ -30,7 +31,7 @@
    flex-direction: row;
    gap: 15px;
    position: absolute;
-   margin: 420px 100px 0 0;
+   margin: 420px 150px 0 0;
    padding: 18px;
    width: 250px;
    border-radius: 8px;
@@ -62,7 +63,6 @@
    display: flex;
    flex-direction: column;
    margin-top: 50px;
-   align-items: center;
 }
 
 .text-elements-group h2 {
