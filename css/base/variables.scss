@@ -1,8 +1,17 @@
 // Breakpoints
-$mobile: 375px;
-$tablet: 768px;
-$desktop: 1024px;
-$desktopPlus: 1180px;
+$small: 576px;
+$medium: 768px;
+$mediumPlus: 992px;
+$big: 1200px;
+$bigPlus: 1400px;
+
+$ovalChange: 1025px;
 // Colors
-$primary: #f0544c;
-$secondary: #e23c35;
+$Cprimary: #5454d4;
+$Csecondary: #f04037;
+$Cyellow: #fedc5a;
+$Cblack: #19191b;
+$Cgray: #696871;
+$Cfaded: #FFFFFFB3;
+$Cextra: #413E65;
+$Chr: #EAE9F2;

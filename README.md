@@ -21,7 +21,11 @@ Site published at:
 
 ## Authors
 
-[Matas](https://github.com/Matulanas)
-[Rimantas](https://github.com/belauzas) \*le Master
-[Saulius](https://github.com/sauliusss)
-[Simona](https://github.com/simonasablinaite)
+- [Agne](https://github.com/agnekauk/),
+- [Matas](https://github.com/Matulanas),
+- [Mindaugas](https://github.com/eyyMinda),
+- [Rimantas](https://github.com/belauzas) \*le Master,
+- [Saulius](https://github.com/sauliusss),
+- [Simona](https://github.com/simonasablinaite)
+
+![Desktop Design Preview](CLIENT/desktop.png?raw=true "Desktop Design Preview")
