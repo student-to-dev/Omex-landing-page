@@ -37,27 +37,22 @@
   transform: translateX(-34px);
   opacity: 1;
 }
-
 .btn.btn-small {
   width: 140px;
   height: 45px;
 }
-
 .btn.btn-medium {
   width: 200px;
   height: 60px;
 }
-
 .btn.btn-big {
   width: 250px;
   height: 60px;
 }
-
 .btn.redBtn {
   color: #fff;
   background-color: #f04037;
 }
-
 .features_btn {
   display: flex;
   text-align: center;
