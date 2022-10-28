@@ -122,24 +122,8 @@
   color: #ffffffb3;
 }
 
-.features_btn {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  width: 250px;
-  padding: 20px 40px;
-  margin-top: 50px;
-  font-family: "Circular Std", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  color: #fff;
-  border: 2px solid #fff;
-  border-color: #fff;
-  border-radius: 5px;
-}
-
 @media (max-width: 576px) {
-  .container .row {
+  .container {
     display: flex;
     flex-wrap: wrap-reverse;
   }
