@@ -1,20 +1,20 @@
-let header = document.querySelector(".header");
-let landings = document.querySelector(".down-from-landings");
-let pages = document.querySelector(".down-from-pages");
-let blog = document.querySelector(".down-from-blog");
-let contact = document.querySelector(".contacts-menu");
-let caseStudy = document.querySelector(".case-menu");
-let career = document.querySelector(".career-menu");
-let pricing = document.querySelector(".pricing-menu");
-let eCommerce = document.querySelector(".e-commerce-menu");
-let account = document.querySelector(".account-menu");
-let utility = document.querySelector(".utility-menu");
-let upperMenuArray = [landings, pages, blog];
-let lowerMenuArray = [contact, caseStudy, career, pricing, eCommerce, account, utility];
-let arrayOfIndexes1 = [0, 1, 2];
-let arrayOfIndexes2 = [0, 1, 2, 3, 4, 5, 6];
-let upperMenuIdArray = [2, 4, 6];
-let lowerMenuIdArray = [8, 10, 12, 14, 16, 18, 20];
+const header = document.querySelector(".header");
+const landings = document.querySelector(".down-from-landings");
+const pages = document.querySelector(".down-from-pages");
+const blog = document.querySelector(".down-from-blog");
+const contact = document.querySelector(".contacts-menu");
+const caseStudy = document.querySelector(".case-menu");
+const career = document.querySelector(".career-menu");
+const pricing = document.querySelector(".pricing-menu");
+const eCommerce = document.querySelector(".e-commerce-menu");
+const account = document.querySelector(".account-menu");
+const utility = document.querySelector(".utility-menu");
+const upperMenuArray = [landings, pages, blog];
+const lowerMenuArray = [contact, caseStudy, career, pricing, eCommerce, account, utility];
+const arrayOfIndexes1 = [0, 1, 2];
+const arrayOfIndexes2 = [0, 1, 2, 3, 4, 5, 6];
+const upperMenuIdArray = [2, 4, 6];
+const lowerMenuIdArray = [8, 10, 12, 14, 16, 18, 20];
 
 function changeToShow(selector) {
     selector.classList.contains("hide") ? selector.classList.replace("hide", "show") : null

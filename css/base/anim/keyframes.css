@@ -58,6 +58,8 @@
   to {
     margin-top: 0%;
   }
+}
+
 @keyframes loading {
   0% {
     width: 0;

@@ -155,9 +155,8 @@ li {
     gap: 30px;
     font-size: 15px;
     transform: translateX(100%);
-    -webkit-transform: translateX(100%);
 }
-.mobile-nav > button {
+.mobile-nav > .btn {
     display: none;
 }
 .mobile-nav>.menu-item:hover {
