@@ -54,15 +54,16 @@
   background-color: #f04037;
 }
 .features_btn {
-  display: flex;
   text-align: center;
   justify-content: center;
   width: 250px;
+  height: 65px;
   padding: 20px 40px;
   margin-top: 50px;
   font-family: "Circular Std", sans-serif;
   font-size: 20px;
   font-weight: 500;
+  background-color: transparent;
   color: #fff;
   border: 2px solid #fff;
   border-color: #fff;
