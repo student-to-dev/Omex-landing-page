@@ -30,30 +30,42 @@
 }
 .btn:hover span {
   -webkit-transform: translateX(-10px);
-          transform: translateX(-10px);
+  transform: translateX(-10px);
 }
 .btn:hover .fa-arrow-right {
   -webkit-transform: translateX(-34px);
-          transform: translateX(-34px);
+  transform: translateX(-34px);
   opacity: 1;
 }
-
 .btn.btn-small {
   width: 140px;
   height: 45px;
 }
-
 .btn.btn-medium {
   width: 200px;
   height: 60px;
 }
-
 .btn.btn-big {
   width: 250px;
   height: 60px;
 }
-
 .btn.redBtn {
   color: #fff;
   background-color: #f04037;
+}
+.features_btn {
+  text-align: center;
+  justify-content: center;
+  width: 250px;
+  height: 65px;
+  padding: 20px 40px;
+  margin-top: 50px;
+  font-family: "Circular Std", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-color: #fff;
+  border-radius: 5px;
 }
