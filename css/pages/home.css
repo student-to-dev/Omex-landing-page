@@ -9,7 +9,6 @@
 
 /* components */
 @import '../components/bodybg.css';
-<<<<<<< Updated upstream
 @import "../components/buttons.css";
 @import '../components/form.css';
 @import '../components/landing.css';
@@ -19,7 +18,6 @@
 
 /* animations */
 @import "../base/anim/keyframes.scss";
-=======
 @import "../components/bodybg.css";
 @import "../components/buttons.css";
 @import "../components/form.css";
@@ -188,4 +186,3 @@ footer > .container .row:nth-of-type(2) {
     font-size: 30px;
   }
 }
->>>>>>> Stashed changes
