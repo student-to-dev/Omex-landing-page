@@ -15,17 +15,198 @@
   <title>Omex</title>
   <link rel="stylesheet" href="./css/pages/home.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
-
   <link rel="stylesheet" href="./css/components/everything.css">
+  <script src="./index.js" defer></script>
 </head>
 
-  <body>
-    <header>Header</header>
-    <hr />
-    <main>
-      Main
-      <!-- Landing -->
-      <section>
+<body>
+  <div class="body__background"></div>
+  <header>
+    <div class="container header">
+      <div class="row">
+        <div class="col-11 m-l-0 col-sm-2">
+          <img src="./CLIENT/images/logo-black..svg" alt="logo" class="logo">
+        </div>
+        <div class="col-1 m-l-0 menu col-sm-10">
+          <nav class="desktop-nav">
+            <div class="menu-item">
+              <a href="#" id="1">Landings</a><i id="2" class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="drop-down-menu down-from-landings hide">
+              <li class="drop-down-menu-item">
+                <a href="#">Landing 01</a>
+              </li>
+              <li class="drop-down-menu-item">
+                <a href="#">Landing 02</a>
+              </li>
+              <li class="drop-down-menu-item">
+                <a href="#">Landing 03</a>
+              </li>
+              <li class="drop-down-menu-item">
+                <a href="#">Landing 04</a>
+              </li>
+              <li class="drop-down-menu-item">
+                <a href="#">Landing 05</a>
+              </li>
+              <li class="drop-down-menu-item">
+                <a href="#">Landing 06</a>
+              </li>
+              <li class="drop-down-menu-item">
+                <a href="#">Landing 07</a>
+              </li>
+            </ul>
+            <div class="menu-item">
+              <a href="#" id="3">Pages</a><i class="fa-solid fa-angle-down" id="4"></i>
+            </div>
+            <ul class="drop-down-menu down-from-pages hide">
+              <li class="drop-down-menu-item pages-item">
+                <a href="#">About Us</a>
+              </li>
+              <li class="drop-down-menu-item pages-menu" id="7">
+                <a href="#" id="7">Contact Us</a><i id="8" class="fa-solid fa-angle-right"></i>
+              </li>
+              <ul class="drop-down-menu submenu contacts-menu hide">
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Contact Us 01</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Contact Us 02</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Contact Us 03</a>
+                </li>
+              </ul>
+              <li class="drop-down-menu-item pages-menu" id="9">
+                <a href="#" id="9">Case Study</a><i id="10" class="fa-solid fa-angle-right"></i>
+              </li>
+              <ul class="drop-down-menu submenu case-menu hide">
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Case Study</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Case Study Details</a>
+                </li>
+              </ul>
+              <li class="drop-down-menu-item pages-menu" id="11">
+                <a href="#" id="11">Career</a><i id="12" class="fa-solid fa-angle-right"></i>
+              </li>
+              <ul class="drop-down-menu submenu career-menu hide">
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Career</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Career Details</a>
+                </li>
+              </ul>
+              <li class="drop-down-menu-item pages-menu" id="13">
+                <a href="#" id="13">Pricing</a><i id="14" class="fa-solid fa-angle-right"></i>
+              </li>
+              <ul class="drop-down-menu submenu pricing-menu hide">
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Pricing 01</a>
+                </li>
+              </ul>
+              <li class="drop-down-menu-item pages-menu" id="15">
+                <a href="#" id="15">eCommerce</a><i id="16" class="fa-solid fa-angle-right"></i>
+              </li>
+              <ul class="drop-down-menu submenu e-commerce-menu hide">
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Shop</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Shop Details</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Cart</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Checkout</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">My Account</a>
+                </li>
+              </ul>
+              <li class="drop-down-menu-item pages-menu" id="17">
+                <a href="#" id="17">Account</a><i id="18" class="fa-solid fa-angle-right"></i>
+              </li>
+              <ul class="drop-down-menu submenu account-menu hide">
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Sign In 01</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Sign In 02</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Sign Up 01</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Sign Up 02</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Reset Password</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Reset Password 02</a>
+                </li>
+              </ul>
+              <li class="drop-down-menu-item pages-menu" id="19">
+                <a href="#" id="19">Utility</a><i id="20" class="fa-solid fa-angle-right"></i>
+              </li>
+              <ul class="drop-down-menu submenu utility-menu hide">
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Review</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Faq</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Coming Soon 01</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Coming Soon 02</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li class="drop-down-menu-item submenu-item">
+                  <a href="#">Thank You</a>
+                </li>
+              </ul>
+            </ul>
+            <li class="menu-item">
+              <a href="#" id="5">Blog</a><i class="fa-solid fa-angle-down" id="6"></i>
+            </li>
+            <ul class="drop-down-menu down-from-blog hide">
+              <li class="drop-down-menu-item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="drop-down-menu-item">
+                <a href="#">Blog Details</a>
+              </li>
+              <li class="drop-down-menu-item">
+                <a href="#">Blog Left Sidebar</a>
+              </li>
+              <li class="drop-down-menu-item">
+                <a href="#">Blog Right Sidebar</a>
+              </li>
+            </ul>
+            <li class="menu-item">
+              <a href="#">Support</a>
+            </li>
+            <a href="#" class="btn btn-small redBtn">
+              <span>Get Started</span>
+              <i class="fa-solid fa-arrow-right fa-sm"></i>
+            </a>
+          </nav>
+          <i class="fa fa-bars hamburger"></i>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Landing -->
+    <section>
       <div class="container">
         <div class="row landing">
           <div class="col-12 m-l-0 col-xs-10 m-l-xs-1 m-l-sm-1 col-md-6 m-l-md-0 landing__left">

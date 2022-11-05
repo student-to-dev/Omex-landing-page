@@ -40,6 +40,18 @@
 .btn.btn-small {
   width: 140px;
   height: 45px;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.btn-small span {
+  top:10px;
+  font-size: 16px;
+  left: 28px;
+}
+
+.btn-small .fa-arrow-right {
+  font-size: 14px;
 }
 .btn.btn-medium {
   width: 200px;

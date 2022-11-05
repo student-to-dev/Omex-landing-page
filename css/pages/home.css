@@ -9,18 +9,6 @@
 
 /* components */
 @import '../components/bodybg.css';
-<<<<<<< Updated upstream
-@import "../components/buttons.css";
-@import '../components/form.css';
-@import '../components/landing.css';
-@import '../components/clients.css';
-@import "../components/reviews.css";
-@import "../components/features.css";
-
-/* animations */
-@import "../base/anim/keyframes.scss";
-=======
-@import "../components/bodybg.css";
 @import "../components/buttons.css";
 @import "../components/form.css";
 @import "../components/landing.css";
@@ -30,6 +18,7 @@
 
 /* animations */
 @import "../base/anim/keyframes.css";
+@import "../base/anim/keyframes.scss";
 
 .title {
   font-size: 50px;
@@ -37,6 +26,186 @@
 }
 
 /* Header start */
+header > .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffffa6;
+    position: relative;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.hamburger {
+    font-size: 1.5em;
+}
+.menu > .desktop-nav {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.menu > nav > .menu-item {
+    padding: 0px 15px;
+}
+li {
+    list-style: none;
+}
+.menu-item > a {
+    padding-right: 5px;
+}
+.menu-item > i {
+    cursor: pointer;
+}
+.menu > .btn-small {
+    margin-top: 8px;
+}
+.drop-down-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:195px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    padding: 30px 15px 20px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 8px 1px 5px #f6f6f6 ;
+}
+.down-from-landings{
+    transform: translateY(64%);
+}
+.down-from-pages {
+    transform: translate(58%, 62.5%);
+}
+.down-from-blog {
+    transform: translate(105%, 71.5%);
+}
+.drop-down-menu-item {
+    display: inline-block;
+    width: 100%;
+}
+.drop-down-menu-item > a {
+    float: left;
+    max-width: max-content;
+    border-bottom: 3px solid transparent;
+    white-space: nowrap;
+}
+.drop-down-menu-item > i {
+    float: right;
+}
+.drop-down-menu-item:hover {
+    color: var(--primary-color);
+    padding-left: 8px;
+    transition: 0.3s;
+}
+.drop-down-menu-item:hover a {
+    border-bottom: 3px solid var(--primary-color);
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.contacts-menu {
+    transform: translate(93%, 10%);
+}
+.case-menu {
+    transform: translate(93%, 49%);
+}
+.career-menu {
+    transform: translate(93%, 83%);
+}
+.pricing-menu {
+    transform: translate(93%, 178%);
+}
+.e-commerce-menu {
+    transform: translate(93%, 75%);
+}
+.account-menu {
+    transform: translate(93%, 78%);
+}
+.utility-menu {
+    transform: translate(93%, 93%);
+}
+.hide {
+    display: none;
+}
+.show {
+    display: flex;
+}
+.fa-xmark {
+    display: none;
+    color: #ffffff;
+    font-size: 1.5em;
+    z-index: 2;
+    position: absolute;
+    top:20px;
+    right:20px;
+}
+.mobile-nav {
+    width: 300px;
+    height: 100vh;
+    background-color: #19191b;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    color: #fff;
+    padding: 80px 10px 0px 10px;
+    gap: 30px;
+    font-size: 15px;
+    transform: translateX(100%);
+}
+.mobile-nav > .btn {
+    display: none;
+}
+.mobile-nav>.menu-item:hover {
+    color: var(--secondary-color);
+}
+.mobile-nav > .menu-item > a {
+    float: left;
+}
+.mobile-nav > .menu-item > i {
+    float: right;
+}
+.mobile-nav > .drop-down-menu {
+    position: relative;
+    transform: translate(0);
+    background-color: #19191b;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    width: 100%;
+    padding-left: 30px;
+}
+.mobile-nav > .drop-down-menu > .drop-down-menu-item:hover a {
+    border-bottom: 3px solid var(--secondary-color);
+}
+.mobile-nav > .drop-down-menu > .submenu {
+    position: relative;
+    transform: translate(0);
+    background-color: #19191b;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+}
+.mobile-nav > .drop-down-menu > .submenu:hover a {
+    border-bottom: 3px solid var(--secondary-color);
+}
+.slide-in {
+    overflow: hidden;
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+}
+.slide-out {
+    overflow: hidden;
+    animation: slide-out 0.5s forwards;
+        -webkit-animation: slide-out 0.5s forwards;
+}
 /* Header end */
 
 /* Hero start */
@@ -175,17 +344,27 @@ footer > .container .row:nth-of-type(2) {
 }
 /* Footer end */
 
-@media (max-width: 768px) {
-  .title {
-    font-size: 40px;
-  }
-  .blue-semi-circle {
-    display: none;
-  }
+@media (max-width: 768px){
+    .title {
+        font-size: 40px;
+    }
+    .blue-semi-circle {
+        display: none;
+    }
+    .menu > .desktop-nav {
+        display: none;
+    }
+ }
+
+@media (max-width: 576px){
+    .title {
+        font-size: 30px;
+    }
+ }
+ 
+@media (min-width: 768px) {
+    .fa.hamburger {
+        display: none;
+    }
 }
-@media (max-width: 576px) {
-  .title {
-    font-size: 30px;
-  }
-}
->>>>>>> Stashed changes
+
