@@ -39,6 +39,7 @@ header > .header {
 
 .hamburger {
     font-size: 1.5em;
+    cursor: pointer;
 }
 .menu > .desktop-nav {
     float: right;
@@ -65,21 +66,22 @@ li {
 .drop-down-menu {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
     width:195px;
     background-color: #fff;
     position: absolute;
     z-index: 1;
-    padding: 30px 15px 20px 15px;
+    padding: 25px 15px 20px 14px;
     border-radius: 5px;
     font-size: 14px;
     box-shadow: 8px 1px 5px #f6f6f6 ;
+    transition: 0.5s;
 }
 .down-from-landings{
-    transform: translateY(64%);
+    transform: translateY(63%);
 }
 .down-from-pages {
-    transform: translate(58%, 62.5%);
+    transform: translate(58%, 61.5%);
 }
 .down-from-blog {
     transform: translate(105%, 71.5%);
@@ -87,12 +89,28 @@ li {
 .drop-down-menu-item {
     display: inline-block;
     width: 100%;
+    transition: 0.6s;
 }
 .drop-down-menu-item > a {
+    display: block;
     float: left;
     max-width: max-content;
-    border-bottom: 3px solid transparent;
     white-space: nowrap;
+    position: relative;
+    padding: 0.2em 0;
+    overflow: hidden;
+}
+.drop-down-menu-item > a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.2em;
+  background-color: var(--primary-color);
+  opacity: 1;
+  transform: translate3d(-105%, 0, 0);
+  transition: 0.7s;
 }
 .drop-down-menu-item > i {
     float: right;
@@ -100,34 +118,32 @@ li {
 .drop-down-menu-item:hover {
     color: var(--primary-color);
     padding-left: 8px;
-    transition: 0.3s;
+    transition: 0.6s;
 }
-.drop-down-menu-item:hover a {
-    border-bottom: 3px solid var(--primary-color);
-    animation-name: loading;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+.drop-down-menu-item:hover a::after {
+    transform: translate3d(0, 0, 0);
+    transition: 0.7s;
 }
 .contacts-menu {
-    transform: translate(93%, 10%);
+    transform: translate(93%, 13%);
 }
 .case-menu {
-    transform: translate(93%, 49%);
+    transform: translate(93%, 58%);
 }
 .career-menu {
-    transform: translate(93%, 83%);
+    transform: translate(93%, 99%);
 }
 .pricing-menu {
-    transform: translate(93%, 178%);
+    transform: translate(93%, 235%);
 }
 .e-commerce-menu {
-    transform: translate(93%, 75%);
+    transform: translate(93%, 81%);
 }
 .account-menu {
-    transform: translate(93%, 78%);
+    transform: translate(93%, 84%);
 }
 .utility-menu {
-    transform: translate(93%, 93%);
+    transform: translate(93%, 99%);
 }
 .hide {
     display: none;
@@ -143,6 +159,7 @@ li {
     position: absolute;
     top:20px;
     right:20px;
+    cursor: pointer;
 }
 .mobile-nav {
     width: 300px;
@@ -163,8 +180,9 @@ li {
 .mobile-nav > .btn {
     display: none;
 }
-.mobile-nav>.menu-item:hover {
+.mobile-nav > .menu-item:hover {
     color: var(--secondary-color);
+    transition: 0.3s;
 }
 .mobile-nav > .menu-item > a {
     float: left;
@@ -181,9 +199,22 @@ li {
     color: #fff;
     width: 100%;
     padding-left: 30px;
+} 
+.mobile-nav > .drop-down-menu > .drop-down-menu-item > a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.2em;
+  background-color: var(--secondary-color);
+  opacity: 1;
+  transform: translate3d(-105%, 0, 0);
+  transition: 0.6s;
 }
-.mobile-nav > .drop-down-menu > .drop-down-menu-item:hover a {
-    border-bottom: 3px solid var(--secondary-color);
+.mobile-nav > .drop-down-menu > .drop-down-menu-item:hover a::after {
+  transform: translate3d(0, 0, 0);
+  transition: 0.6s;
 }
 .mobile-nav > .drop-down-menu > .submenu {
     position: relative;
@@ -193,18 +224,31 @@ li {
     box-shadow: none;
     color: #fff;
 }
-.mobile-nav > .drop-down-menu > .submenu:hover a {
-    border-bottom: 3px solid var(--secondary-color);
+.mobile-nav .submenu > .submenu-item > a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.2em;
+  background-color: var(--secondary-color);
+  opacity: 1;
+  transform: translate3d(-105%, 0, 0);
+  transition: 0.6s;
+}
+.mobile-nav .submenu > .submenu-item:hover a::after {
+  transform: translate3d(0, 0, 0);
+  transition: 0.6s;
 }
 .slide-in {
-    overflow: hidden;
-    animation: slide-in 0.5s forwards;
-    -webkit-animation: slide-in 0.5s forwards;
+  overflow: hidden;
+  animation: slide-in 0.5s forwards;
+  -webkit-animation: slide-in 0.5s forwards;
 }
 .slide-out {
-    overflow: hidden;
-    animation: slide-out 0.5s forwards;
-        -webkit-animation: slide-out 0.5s forwards;
+  overflow: hidden;
+  animation: slide-out 0.5s forwards;
+  -webkit-animation: slide-out 0.5s forwards;
 }
 /* Header end */
 
