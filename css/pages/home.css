@@ -71,7 +71,7 @@ li {
     background-color: #fff;
     position: absolute;
     z-index: 1;
-    padding: 30px 15px 20px 15px;
+    padding: 25px 15px 20px 14px;
     border-radius: 5px;
     font-size: 14px;
     box-shadow: 8px 1px 5px #f6f6f6 ;
@@ -125,25 +125,25 @@ li {
     transition: 0.7s;
 }
 .contacts-menu {
-    transform: translate(93%, 11%);
+    transform: translate(93%, 13%);
 }
 .case-menu {
-    transform: translate(93%, 53%);
+    transform: translate(93%, 58%);
 }
 .career-menu {
-    transform: translate(93%, 91%);
+    transform: translate(93%, 99%);
 }
 .pricing-menu {
-    transform: translate(93%, 212%);
+    transform: translate(93%, 235%);
 }
 .e-commerce-menu {
-    transform: translate(93%, 79%);
+    transform: translate(93%, 81%);
 }
 .account-menu {
-    transform: translate(93%, 82%);
+    transform: translate(93%, 84%);
 }
 .utility-menu {
-    transform: translate(93%, 97%);
+    transform: translate(93%, 99%);
 }
 .hide {
     display: none;
