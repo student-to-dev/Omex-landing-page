@@ -54,7 +54,7 @@ header.addEventListener("mouseover", (e) => {
 
         if (id == 2) {
             newId = id - 2;
-        } else { newId = id / 2 - 1 }
+        } else { newId = id / 2 - 1 };
 
         if (newId > -1) {
             changeToShow(upperMenuArray[newId]);
@@ -68,7 +68,13 @@ header.addEventListener("mouseover", (e) => {
             upperMenuIdArrayNew.forEach(i => {
                 angleDown(document.getElementById(i));
             });
-        }
+        };
+
+        if (pages.classList.contains("hide")) {
+            lowerMenuArray.forEach(item => {
+                changeToHide(item);
+            });
+        };
     }
     else if (id > 7) {
         let newId;
