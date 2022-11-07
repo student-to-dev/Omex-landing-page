@@ -112,7 +112,6 @@ li {
   transform: translate3d(-105%, 0, 0);
   transition: 0.7s;
 }
-
 .drop-down-menu-item > i {
     float: right;
 }
