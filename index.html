@@ -15,12 +15,14 @@
   <title>Omex</title>
   <link rel="stylesheet" href="./css/pages/home.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+  <link rel="stylesheet" href="./css/components/save-time.css">
   <link rel="stylesheet" href="./css/components/everything.css">
   <script src="./index.js" defer></script>
 </head>
 
 <body>
   <div class="body__background"></div>
+  
   <header>
     <div class="container header">
       <div class="row">
@@ -204,6 +206,7 @@
       </div>
     </div>
   </header>
+  
   <main>
     <!-- Landing -->
     <section>
@@ -255,6 +258,7 @@
         </div>
       </div>
     </section>
+    
       <!-- Features -->
       <section class="features">
         <img src="./CLIENT/images/l1-feature-oval-300x71.png.webp" alt="yellow-semi-circle" class="yellow-semi-circle" />
@@ -308,8 +312,10 @@
           </div>
         </div>
       </section>
+      
     <!-- Save Time -->
     <section></section>
+    
     <!-- Everything You Need -->
     <section class=" container BG-img">
       <div class="row">
@@ -349,7 +355,6 @@
       </div>
       </div>
     </section>
-
 
     <!-- Reviews -->
     <section>
@@ -403,14 +408,54 @@
         </div>
       </div>
     </section>
+    
+    <!-- Save Time -->
+    <section class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-5 floating">
+          <div class="left-side">
+            <img src="./CLIENT/images/BG.jpg.webp" alt="personal photo" class="personal">
+            <img src="./CLIENT/images/Rectangle.png.webp" alt="rectangle" class="frame">
+            <span class="save-time-popup">
+              <div class="bell"><i class="fa-solid fa-bell"></i></div>
+              <div class="text-elements">
+                <p>Next meeting on 30 mins</p>
+                <h4>Project Discussion with John</h4>
+              </div>
+            </span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-5 m-l-1 col-lg-6 m-l-1">
+          <div class="text-elements-group">
+            <h2>Save tons of time on design & coding.</h2>
+            <p>Create custom landing pages with Omega that converts more visitors than any website. With lots of
+              unique
+              blocks, you can easily build a page without coding.
+            </p>
+          </div>
+          <button class="btn btn-medium redBtn">
+            <span>Get Started</span>
+            <i class="fa-solid fa-arrow-right fa-sm"></i>
+          </button>
+
+        </div>
+    </section>
+
+    <!-- Everything You Need -->
+    <section></section>
+    
+    <!-- Reviews -->
+    <section></section>
+    
     <!-- Get Started -->
     <section>
       <div class="container get-started-section">
         <div class="row">
           <div class="col-10 m-l-1 col-sm-6 m-l-sm-3 get-started-content slide-up">
             <h2 class="title">Get started</h2>
-            <p>Create custom landing pages with Omega that converts more visitors than any website. With lots of unique
-              blocks, you can easily build a page without coding.</p>
+            <p>Create custom landing pages with Omega that converts more visitors than any website. With lots of
+              unique blocks, you can easily build a page without coding.</p>
             <form>
               <input id=" username" type="text" placeholder="Your name" required autocomplete="username">
               <input id="email" type="email" placeholder="Email address" required autocomplete="email">
@@ -422,6 +467,7 @@
       </div>
     </section>
   </main>
+  
   <footer>
     <div class="container">
       <div class="row">
