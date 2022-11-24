@@ -2,16 +2,38 @@
 @import '../base/utils.scss';
 @import '../base/anim/keyframes.css';
 
+.container>.landing {
+  display: inline-block;
+
+  @media (max-width: $mediumPlus) {
+    display: grid;
+
+    .landing__left {
+      order: 2;
+    }
+
+    .landing__right {
+      order: 1;
+
+      .landing__right_popup.popup-1 {
+        left: 0;
+      }
+    }
+
+  }
+}
 
 .landing__left {
+  order: 1;
+
   .landing__left_content {
     margin-top: 64px;
-    margin-right: 60px;
+    margin-right: 10px;
     padding: 10px;
 
     h1 {
       color: $Cblack;
-      @include font(80px, 600, 1.05em);
+      @include font(clamp(38px, 6vw, 80px), 600, 1.05em);
       margin-bottom: 20px;
     }
 
@@ -21,10 +43,11 @@
       margin-bottom: 36px;
     }
 
-    a {
+    .landing__left-intro {
       display: block;
       color: $Cprimary;
       @include font(16px, 500, 20px, -0.5px);
+      cursor: pointer;
 
       i {
         margin-right: 10px;
@@ -35,21 +58,25 @@
 
 .landing__right {
   position: relative;
+  order: 2;
 
   .landing__right_popup {
     @include flex();
     gap: 15px;
     position: absolute;
-    padding: 18px;
+    padding: 1rem;
     border-radius: 8px;
     box-shadow: 0px 32px 34px 0px #1c1b2033;
+
+    @media(max-width: $small) {
+      padding: 0.5rem;
+    }
 
     .checkMark {
       @include flex();
       background-color: $Cyellow;
       border-radius: 50px;
-      width: 31px;
-      height: 31px;
+      padding: 7px;
     }
 
     h4 {
@@ -62,6 +89,10 @@
       background-color: $Cprimary;
       color: #fff;
       animation: popup-1 2s ease-in-out infinite alternate-reverse both;
+
+      @media (max-width: $bigPlus) {
+        left: 0;
+      }
     }
 
     &.popup-2 {
@@ -69,6 +100,10 @@
       right: -12px;
       background-color: $Cyellow;
       animation: popup-2 2s ease-in-out infinite alternate both;
+
+      @media (max-width: $small) {
+        bottom: 10px;
+      }
 
       .checkMark {
         background-color: $Cprimary;
@@ -83,12 +118,12 @@
   }
 
   .landing__right_phone {
-    height: 100%;
-    width: 100%;
     text-align: center;
 
     img {
       padding: 10px;
+      width: clamp(200px, 40vw, 330px);
+      height: auto;
     }
   }
 }

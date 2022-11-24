@@ -50,3 +50,24 @@
             transform: translate3d(0, 45px, 0);
   }
 }
+@keyframes slide-up {
+  from {
+    margin-top: 50%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+
+@keyframes slide-in {
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slide-in {
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
